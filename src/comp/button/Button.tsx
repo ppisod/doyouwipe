@@ -1,4 +1,4 @@
-import styles from './Button.module.css'
+import styles from './_Button.module.css'
 
 function Button ({col, content}: {col: number, content: string}) {
     let style = styles.buttonOk;

@@ -1,4 +1,4 @@
-import styles from './Text.module.css'
+import styles from './_Text.module.css'
 
 function Title () {
     return (
