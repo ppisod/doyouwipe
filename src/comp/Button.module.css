@@ -1,0 +1,60 @@
+.button {
+    border-radius: 0.1em;
+    padding: 0.5em 1em;
+    font-size: 1em;
+    cursor: pointer;
+    border: 0.1em solid transparent;
+    transition:
+            border-color 0.15s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+            border-top-width 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+            border-bottom-width 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+            border-left-width 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+            border-right-width 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    color: #1a1a1a;
+}
+
+.button:hover {
+    border-width: 0.2em;
+}
+
+.button:focus {
+    outline: none;
+}
+
+.button:active {
+    transform: scale(0.9);
+}
+
+.buttonGood {
+    background-color: #cce6cd;
+    border-color: #90a292;
+}
+
+.buttonGood:hover {
+    border-color: #6a836a;
+}
+
+.buttonBad {
+    background-color: #c8afb1;
+    border-color: #a88b8b;
+}
+
+.buttonBad:hover {
+    border-color: #9c7474;
+}
+
+.buttonOk {
+    background-color: #e8e3ca;
+    border-color: #c0b58c;
+}
+
+.buttonOk:hover {
+    border-color: #a09160;
+}
+
+.cont {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1em;
+}
