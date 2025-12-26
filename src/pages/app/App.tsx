@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import './App.css'
+import '../../index.css'
 import Title from "../../comp/text/Title.tsx";
 import ButtonContainer from "../../comp/button/ButtonContainer.tsx";
 import Button from "../../comp/button/Button.tsx";

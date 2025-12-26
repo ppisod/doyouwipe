@@ -1,6 +1,7 @@
 import TopBar from "../../comp/topbar/TopBar.tsx";
 import TopBarContents from "../../comp/topbar/TopBarContents.tsx";
 import Body from "../../comp/text/Body.tsx";
+import '../../index.css'
 
 function About() {
     return (
