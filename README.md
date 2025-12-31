@@ -17,14 +17,14 @@ VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
 
 Your Supabase project should have the following tables:
 
-#### Table 1: `qotd` (Question of the Day)
-- `id`: `int8` (Primary Key)
+#### Table 1: `qotd`
+- `id`: `int8` (key)
 - `for`: `date` (Target date for the question)
 - `q`: `jsonb` (Contains question text and button options)
     - Example: `{"q": "Do you wipe?", "a": [{"color": 1, "text": "yes"}, {"color": -1, "text": "no"}]}`
 
-#### Table 2: `votd` (Votes of the Day)
-- `id`: `int8` (Primary Key)
+#### Table 2: `votd` 
+- `id`: `int8` (key)
 - `for`: `date` (Target date)
 - `a`: `jsonb` (Vote tallies)
     - Example: `{"a": [{"v": 0, "vn": "yes"}, {"v": 0, "vn": "no"}]}`
@@ -35,5 +35,4 @@ nothing yet...
 
 ## why should i answer ur questions?
 
-Because I am blackrock CEO and I am palantir CEO and I want to know all about you.  
 Just for fun.
