@@ -18,9 +18,9 @@ function App() {
             QuestionUtil.fetchTodayQuestion().then((qdata) => {
                 if (qdata == undefined) {
                     console.warn("question data is undefined.");
-                    return;
+                } else {
+                    setData(qdata);
                 }
-                setData(qdata);
                 setLoading(false);
             });
         }, []);
